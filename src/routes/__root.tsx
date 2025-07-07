@@ -1,5 +1,4 @@
 import { createRootRoute, Outlet } from '@tanstack/react-router'
-import { TanStackRouterDevtools } from '@tanstack/router-devtools'
 
 export const Route = createRootRoute({
   component: () => (
@@ -7,7 +6,6 @@ export const Route = createRootRoute({
       <div className="container mx-auto px-4 py-8">
         <Outlet />
       </div>
-      <TanStackRouterDevtools />
     </div>
   ),
 })
