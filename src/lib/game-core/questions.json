@@ -1,0 +1,215 @@
+{
+  "id": "freecolo-party-questions",
+  "name": "FreeColo Party Questions",
+  "version": "1.0.0",
+  "description": "Fun drinking game questions for parties",
+  "questions": [
+    {
+      "id": "story-chain",
+      "text": "{player}, start a story with a single sentence. Each person adds one sentence, continuing the story. Anyone who hesitates for more than 5 seconds takes a sip.",
+      "type": "action",
+      "tags": ["creative", "group", "storytelling"],
+      "minPlayers": 3,
+      "maxPlayers": 10
+    },
+    {
+      "id": "mirror-movements",
+      "text": "{player}, pick someone. For the rest of the round, you must perfectly mirror their movements and expressions. If you fail to do so, take a sip.",
+      "type": "dare",
+      "tags": ["physical", "mimicry", "funny"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "judge-role",
+      "text": "{player}, you are now the judge for the next minute. Anyone who speaks out of turn, uses your name, or is deemed 'too loud' by you takes a sip.",
+      "type": "rule",
+      "tags": ["authority", "control", "social"],
+      "minPlayers": 3,
+      "maxPlayers": 10
+    },
+    {
+      "id": "accent-challenge",
+      "text": "{player}, for the next two turns, you must speak in a specific accent (e.g., British, Australian, pirate). If you break character or your accent is too bad, take a sip.",
+      "type": "dare",
+      "tags": ["acting", "accent", "performance"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "forbidden-word",
+      "text": "{player}, choose one common word (e.g., 'the', 'and', 'is'). Anyone who says the forbidden word takes a sip.",
+      "type": "rule",
+      "tags": ["wordplay", "trap", "group"],
+      "minPlayers": 3,
+      "maxPlayers": 10
+    },
+    {
+      "id": "thumb-master",
+      "text": "{player}, place your thumb on the table. The last person to place their thumb on the table also takes a sip.",
+      "type": "action",
+      "tags": ["reaction", "speed", "group"],
+      "minPlayers": 3,
+      "maxPlayers": 10
+    },
+    {
+      "id": "truth-or-dare-circle",
+      "text": "{player}, go around the circle. Each person must choose truth or dare. If they refuse to answer or do the dare, they drink.",
+      "type": "action",
+      "tags": ["truth", "dare", "group", "personal"],
+      "minPlayers": 3,
+      "maxPlayers": 10
+    },
+    {
+      "id": "drink-designer",
+      "text": "{player}, design a 'shot' or mixed drink using whatever is available (within reason and safety!). The person who designed it drinks first, then the person to their left.",
+      "type": "action",
+      "tags": ["creative", "mixing", "drink"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "compliment-chain",
+      "text": "{player}, start a compliment for the person to your left. They then compliment the person to your left, and so on. If someone can't think of a compliment within 10 seconds, they drink.",
+      "type": "action",
+      "tags": ["positive", "social", "chain"],
+      "minPlayers": 3,
+      "maxPlayers": 10
+    },
+    {
+      "id": "funny-face-copy",
+      "text": "{player}, make a funny face. The person across from you must then try to replicate it. If they can't or don't try, they drink.",
+      "type": "dare",
+      "tags": ["funny", "facial", "copy"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "no-pointing-rule",
+      "text": "{player}, you are not allowed to point at anyone for the rest of the game. If you do, take a sip.",
+      "type": "rule",
+      "tags": ["restriction", "gesture", "permanent"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "non-dominant-hand",
+      "text": "{player}, you must drink all beverages with your non-dominant hand. If you forget and use your dominant hand, take a sip.",
+      "type": "rule",
+      "tags": ["restriction", "hand", "permanent"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "nickname-rule",
+      "text": "{player}, for the next three rounds, you must refer to everyone by a nickname you create for them on the spot. If you use their real name, you drink.",
+      "type": "rule",
+      "tags": ["creative", "names", "temporary"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "pinky-up-rule",
+      "text": "{player}, all sips must be taken with your pinky finger extended. If you forget, you drink.",
+      "type": "rule",
+      "tags": ["etiquette", "gesture", "permanent"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "secret-gesture",
+      "text": "{player}, you have a secret gesture. Anyone who notices you doing it must also do it, and if they don't, they drink. If you are caught doing your own gesture by someone else, you drink.",
+      "type": "rule",
+      "tags": ["secret", "gesture", "observation"],
+      "minPlayers": 3,
+      "maxPlayers": 10
+    },
+    {
+      "id": "whisper-rule",
+      "text": "{player}, for the next two rounds, you must whisper everything you say. Anyone who hears you clearly and doesn't whisper back takes a sip.",
+      "type": "rule",
+      "tags": ["voice", "whisper", "temporary"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "silence-curse",
+      "text": "{player}, you are now under a 'silence curse.' You cannot speak until someone asks you a direct question. If you speak without being asked, you drink.",
+      "type": "rule",
+      "tags": ["silence", "restriction", "temporary"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "echo-challenge",
+      "text": "{player}, for the next round, you must repeat everything the person to your left says, with a 3-second delay. If you miss a repeat or delay too long, you drink.",
+      "type": "dare",
+      "tags": ["echo", "timing", "attention"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "spill-pretend",
+      "text": "{player}, every time you take a sip, you must pretend to spill it and make a 'whoops' sound. If you forget to do this, you drink.",
+      "type": "rule",
+      "tags": ["acting", "sound", "permanent"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "drink-reviewer",
+      "text": "{player}, for the remainder of the game, before taking a sip, you must announce what you are drinking and give a brief, exaggerated review of its taste. If you forget, you drink.",
+      "type": "rule",
+      "tags": ["review", "announcement", "permanent"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "massage-dare",
+      "text": "{player}, you have to give the person to your right a shoulder massage for 30 seconds.",
+      "type": "dare",
+      "tags": ["physical", "massage", "contact"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "personal-assistant",
+      "text": "{player}, you have to pretend to be the person to your left's personal assistant for the next 5 minutes, fulfilling any reasonable requests.",
+      "type": "dare",
+      "tags": ["roleplay", "service", "temporary"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "dramatic-text-reading",
+      "text": "{player}, you have to perform a dramatic reading of a text message from the person to your right's phone (with their permission, of course!).",
+      "type": "dare",
+      "tags": ["dramatic", "reading", "phone"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "silly-song-creation",
+      "text": "{player}, you have to create a short, silly song about the person across from you and perform it for the group.",
+      "type": "dare",
+      "tags": ["creative", "song", "performance"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    },
+    {
+      "id": "staring-contest",
+      "text": "{player}, you have to have a staring contest with the person to your left. The first one to blink or look away takes a sip.",
+      "type": "dare",
+      "tags": ["staring", "contest", "challenge"],
+      "minPlayers": 2,
+      "maxPlayers": 10
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 25,
+    "tags": ["creative", "group", "storytelling", "physical", "mimicry", "funny", "authority", "control", "social", "acting", "accent", "performance", "wordplay", "trap", "reaction", "speed", "truth", "dare", "personal", "positive", "mixing", "drink", "chain", "facial", "copy", "restriction", "gesture", "permanent", "hand", "names", "temporary", "etiquette", "secret", "observation", "voice", "whisper", "silence", "echo", "timing", "attention", "sound", "review", "announcement", "massage", "contact", "roleplay", "service", "dramatic", "reading", "phone", "song", "staring", "contest", "challenge"],
+    "difficulty": ["easy", "medium"],
+    "minPlayers": 2,
+    "maxPlayers": 10
+  }
+}
