@@ -54,7 +54,17 @@ function GamePage() {
   const currentQuestion = game.getCurrentQuestion()
   const gameHistory = game.getGameHistory()
   const currentTurn = gameHistory[gameHistory.length - 1]
-  const currentPlayer = currentTurn?.selectedPlayer
+
+  // Determine current player: use last selected player or calculate next player
+  let currentPlayer = currentTurn?.selectedPlayer
+  if (!currentPlayer) {
+    // No turns taken yet, calculate who would be selected next
+    const players = game.getPlayers()
+    const minSelections = Math.min(...players.map(p => p.timesSelected))
+    const candidatePlayers = players.filter(p => p.timesSelected === minSelections)
+    currentPlayer = candidatePlayers[0] || null
+  }
+
   const isGameFinished = game.isGameFinished()
   const gameStats = game.getGameStats()
 
