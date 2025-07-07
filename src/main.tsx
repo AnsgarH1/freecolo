@@ -1,12 +1,16 @@
+import { createRouter, RouterProvider } from '@tanstack/react-router'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 import './index.css'
-import { Button } from './components/ui/button'
+// Import the generated route tree
+import { routeTree } from './routeTree.gen'
+
+// Create a new router instance
+const router = createRouter({ routeTree })
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1 className="text-3xl font-bold underline">Hello World</h1>
-    <Button>Click me</Button>
+    <RouterProvider router={router} />
   </StrictMode>,
 )

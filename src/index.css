@@ -118,3 +118,71 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* FreeColo Mobile Landscape Optimizations */
+@layer utilities {
+  /* Mobile landscape specific styles */
+  @media screen and (max-height: 500px) and (orientation: landscape) {
+    .mobile-landscape-compact {
+      @apply py-2 space-y-2;
+    }
+    
+    .mobile-landscape-compact .card {
+      @apply p-3;
+    }
+    
+    .mobile-landscape-compact h1 {
+      @apply text-2xl;
+    }
+    
+    .mobile-landscape-compact h2 {
+      @apply text-xl;
+    }
+    
+    .mobile-landscape-compact .text-6xl {
+      @apply text-4xl;
+    }
+    
+    .mobile-landscape-compact .text-5xl {
+      @apply text-3xl;
+    }
+    
+    .mobile-landscape-compact .py-8 {
+      @apply py-4;
+    }
+    
+    .mobile-landscape-compact .mb-8 {
+      @apply mb-4;
+    }
+    
+    .mobile-landscape-compact .space-y-4 > * + * {
+      @apply mt-2;
+    }
+  }
+  
+  /* Touch-friendly buttons */
+  .btn-touch {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  /* Party theme animations */
+  .party-gradient {
+    background: linear-gradient(45deg, #9333ea, #ec4899, #f97316, #eab308);
+    background-size: 400% 400%;
+    animation: party-gradient 3s ease infinite;
+  }
+  
+  @keyframes party-gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Prevent text selection on game elements */
+  .no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
